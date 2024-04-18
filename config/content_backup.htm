@@ -23,9 +23,12 @@
 <p></p>
 <h1>Codespaces</h1>
 <p><a href="http://hong41223129.github.io/wcm2024">http://hong41223129.github.io/wcm2024</a></p>
+<h1>w3</h1>
+<h2>git</h2>
 <h1>w6 </h1>
 <h4>git的發展歷史</h4>
 <p>chatgpt的回答:</p>
+<p></p>
 <p>Git 是一個分散式版本控制系統，由 Linus Torvalds 在2005年創建。 以下是 Git 的發展歷史要點：</p>
 <p>誕生：Git 誕生於 Linux 核心開發社群的需求。 Linus Torvalds 不滿意現有的版本控制系統，因此他決定著手建立一個新的系統來管理 Linux 核心的程式碼。</p>
 <p>首次發布：Git 在 2005 年 4 月以開源專案的形式首次發布。 最初的版本並不完整，但已經具備了基本的版本控制功能。</p>
@@ -36,6 +39,7 @@
 <p>總的來說，Git 的發展歷史可以概括為從一個簡單的版本控制系統到成為開發者首選的版本控制工具之一。 它不斷吸收和整合了開發者的需求和回饋，持續改進和完善，成為了現代軟體開發不可或缺的一部分。</p>
 <h4>Git 創辦人 Linus Torvalds的相關履歷</h4>
 <p>chatgpt的回答:</p>
+<p></p>
 <p>Linus Torvalds 是電腦科學家和軟體工程師，最著名的成就是創建了 Linux 作業系統內核，並作為其最主要的開發者之一。 </p>
 <p>早年生活與教育：Linus Benedict Torvalds 出生於1969年12月28日，是芬蘭赫爾辛基的一名芬蘭瑞典族人。 他在赫爾辛基大學學習電腦科學，並於1996年獲得了電腦科學碩士學位。</p>
 <p>Linux 核心的創建：在1991年，當時還是大學生的 Linus Torvalds 開始了他的 Linux 核心項目，最初是作為一個個人的愛好。 他發布了第一個版本的 Linux 內核，並邀請其他人參與貢獻和改進。</p>
@@ -47,6 +51,7 @@
 <p>總的來說，Linus Torvalds 是一位對電腦科學和開源軟體產生了重大影響的人物，他的貢獻不僅體現在他創造的Linux 內核和Git 等專案中，還體現在他對開源社群的領導和 促進中。</p>
 <h4><span>一般相同專業人士如何利用 git 解決內容管理問題?</span></h4>
 <p>chatgpt的回答:</p>
+<p></p>
 <p>版本控制： Git是一個分散式版本控制系統，可以追蹤檔案的修改歷史。 專業人士可以使用Git來管理專案的不同版本，可以輕鬆地回滾到先前的版本，查看每個版本之間的變化，並追蹤誰做出了哪些修改。</p>
 <p>協作開發： Git讓多人協作開發變得簡單。 團隊成員可以在各自的本地副本上工作，並透過Git將他們的工作同步到共享的遠端倉庫。 Git提供了分支功能，讓團隊成員可以在不干擾主線開發的情況下並行開發新功能或修復bug。</p>
 <p>程式碼審查： Git的分支和合併功能使得程式碼審查變得更加簡單。 團隊成員可以在單獨的分支上開發新功能或修復bug，然後請其他成員審查他們的程式碼。 審查者可以輕鬆地比較分支之間的差異，並提出建議或進行修改。</p>
@@ -56,16 +61,21 @@
 <p>透過利用Git的這些功能，相同專業的人士可以更有效率地管理專案內容，並與團隊成員進行協作開發。</p>
 <h4><span>假如要在 Windows 實際 demo git client 與 git server, 該如何進行?</span></h4>
 <p>chatgpt的回答:</p>
+<h4>1.準備工作：</h4>
 <p>安裝Git： 如果你還沒在Windows上安裝Git，首先需要從Git官網（https://git-scm.com/）下載並安裝Git。</p>
 <p>設定Git： 安裝完成後，開啟命令提示字元（cmd）或PowerShell，並設定Git的全域配置，包括使用者名稱和信箱位址：</p>
 <h4><span style="background-color: #00ffff;">git config --global user.name "Your Name"</span><br/><span style="background-color: #00ffff;">git config --global user.email "youremail@example.com"</span></h4>
-<p>搭建Git伺服器：<br/>選擇伺服器： 你可以選擇使用自架的Git伺服器，如GitLab、Gitea等，也可以使用託管服務，如GitHub、Bitbucket等。</p>
+<h4>選擇伺服器： 你可以選擇使用自架的Git伺服器，如GitLab、Gitea等，也可以使用託管服務，如GitHub、Bitbucket等。</h4>
+<h4>2.搭建Git伺服器：</h4>
 <p>安裝與設定伺服器： 依照所選伺服器的安裝指南在Windows上安裝並設定Git伺服器。 每個伺服器都有不同的安裝和設定步驟，因此需要根據所選伺服器的指南進行操作。</p>
 <p>建立倉庫： 在Git伺服器上建立一個新的倉庫，以便在演示中使用。</p>
-<h4>設定本地Git客戶端：<br/>複製倉庫： 在本機電腦上選擇目錄，並使用Git指令複製剛建立的倉庫：<span style="background-color: #00ffff;">git clone &lt;倉庫URL&gt;</span></h4>
-<p>進行修改： 在克隆下來的倉庫中進行一些修改或新增檔案。</p>
-<h4>提交變更： 將變更提交至本地倉庫：<span style="background-color: #00ffff;">git add .</span><br/><span style="background-color: #00ffff;">git commit -m "Your commit message"</span>推送變更： 將變更推送到Git伺服器：</h4>
-<h4><span style="background-color: #00ffff;">git push origin master</span> 這裡的"master"可以替換為你所使用的分支名稱。</h4>
+<h4><span style="background-color: #ffffff;">3.設定本地Git客戶端：</span><span style="background-color: #ffffff;"><br/></span></h4>
+<h4><span style="background-color: #ffffff;">複製倉庫： 在本機電腦上選擇目錄，並使用Git指令複製剛建立的倉庫：</span><strong><span style="background-color: #00ffff;">git clone &lt;倉庫URL&gt;</span></strong></h4>
+<p>進行修改： 在克隆下來的倉庫中進行一些修改或新增檔案。<strong><span style="background-color: #00ffff;">git add .</span></strong></p>
+<h4>提交變更： 將變更提交至本地倉庫：<span style="background-color: #00ffff;">git commit -m "Your commit message"</span></h4>
+<h4><span style="background-color: #00ffff;"><span style="background-color: #ffffff;">推送變更： 將變更推送到Git伺服器：</span>git push origin master</span></h4>
+<h4>這裡的"master"可以替換為你所使用的分支名稱。</h4>
+<h4>4.演示：</h4>
 <p>示範修改： 在示範中展示如何在本機修改文件，並使用Git提交並推送變更到Git伺服器。</p>
 <p>示範多人協作： 如果有多位參與者，可以模擬多人協作的情況。 一個人可以在本地進行修改，提交到Git伺服器，而另一個人可以從伺服器上拉取更改，並在本地進行修改和提交。</p>
 <p>示範版本控制： 示範如何使用Git查看歷史提交記錄，比較不同版本之間的差異，並恢復到先前的版本。</p>
