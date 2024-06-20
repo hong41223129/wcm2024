@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統 - w17</title><link href="./" rel="alternate"></link><link href="./feeds/w17.atom.xml" rel="self"></link><id>./</id><updated>2024-06-20T02:13:20+08:00</updated><entry><title>2024 w17 期末專案</title><link href="./2024-Spring-w17-blog-tutorial.html" rel="alternate"></link><published>2024-06-13T11:00:00+08:00</published><updated>2024-06-20T02:13:20+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-06-13:./2024-Spring-w17-blog-tutorial.html</id><summary type="html">&lt;p&gt;九宮格小遊戲&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;九宮格小遊戲&lt;/p&gt;
+
+
+&lt;h1&gt;九宮格小遊戲&lt;/h1&gt;
+&lt;p&gt;我試著用chatgpt這個小遊戲，製作的過程中，第一次只有自己與自己對決，所以我在遊戲內增加AI，也發現AI並沒有阻擋且特立獨行，我請chatgpt增加些智能性，增加過程有發現AI並沒有對我的行為做出反應，又請chatgpt進行內容的除錯，然後就有對我的行為做出反應，嘗試阻擋我並贏得勝利。&lt;/p&gt;</content><category term="w17"></category><category term="網誌編寫"></category></entry></feed>
